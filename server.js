@@ -8,14 +8,7 @@ const server = createServer(app);
 const io = new Server(server);
 
 
-app.use(express.static(__dirname + '/public'));
-app.use('/public',express.static(__dirname +'/public'));
-app.use('/js',express.static(__dirname +'/js'));
 
-
-app.get('/', (req, res) => {
-  res.sendFile(join(__dirname, 'index.html'));
-});
 
 
 
