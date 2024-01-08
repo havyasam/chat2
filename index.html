@@ -5,27 +5,41 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <title>chat app</title>
     <link rel="stylesheet" href="public/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
   </head>
   <body>
+    
     <section class="chat__section">
+    
       <div class="brand">
+        <img src="https://store-images.s-microsoft.com/image/apps.31757.13704239525856931.afd81672-2153-429c-b42e-d4b162febc39.6b86fb40-1199-417f-abfe-b5782f2bc417" alt="Chat Logo" width="40px" height="35px">
         <h1>CHAT</h1>
       </div>
+      <div id="typing"></div>
       <div class="message__area">
+     
       </div>
+      
       <div class="new">
-
+       
       </div>
       <div>
         <h3 id="joined"></h3>
+        <div class="text-flex">
+         
+          <div>
         <textarea
           id="textarea"
-          cols="106"
-          rows="2"
-          placeholder="write a message"
-        ></textarea>
-        <button id="send">send</button>
+          cols="82"
+          rows="2"c
+          placeholder="write a message" class="tt"></textarea>
+        </div>
+        <div>
+          <button id="send" >send&nbsp;&nbsp;<i class="fa-solid fa-paper-plane" style="color: #ffffff;"></i></button>
+        </div>
+        </div>
+       
       </div>
     </section>
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
