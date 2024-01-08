@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     pad: 0;
     margin: 0;
@@ -83,3 +84,131 @@
     
     
   }
+=======
+* {
+    pad: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+  
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url("https://wallpaperaccess.com/full/3204572.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: "Roboto", sans-serif;
+  }
+  
+ section.chat__section {
+  width: 800px;
+  max-width: 90%;
+  background: white;
+  background: url('https://i.pinimg.com/736x/8c/98/99/8c98994518b575bfd8c949e91d20548b.jpg') center/cover;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+  .brand {
+    padding: 20px;
+    background: lavender;
+    display: flex;
+    border: solid 2px rgb(93, 18, 210);
+
+    align-items: center;
+  }
+  .brand h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: rgb(93, 18, 210);
+    margin-left: 10px;
+  }
+  .message__area {
+    height: 500px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 40px;
+  }
+  .textarea {
+  color: rgb(93, 18, 210);
+    border: none;
+    font-size: 36px;
+    resize: none;
+   
+    outline: none;
+    background: #fbfbfb;
+    border-radius: 5px;
+   
+    
+  }
+  
+  .message {
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    max-width: 300px;
+    position: relative;
+  }
+  .incoming {
+    background: #8f8be8;
+    color: #CDC5BD;
+   margin-right: auto;
+  }
+  .outgoing {
+    background: #e9eafd;
+    color: #787986;
+    margin-left: auto;
+    border: 1px solid rgb(93, 18, 210);
+  }
+  .message h4 {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    color: rgb(209, 167, 230);
+    font-size: 14px;
+  }
+  .new{
+    color: green;
+    
+    padding: 16px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    
+    
+  }
+  .text-flex{
+    display: flex;
+  }
+  button{
+    font-size: 16px;
+    border-radius: 5px;
+    color: white;
+    margin-left:.5px;
+    width:86px;
+    height: 43px;
+    background: rgb(93, 18, 210);
+  }
+  .tt{
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 15px;
+    color:blue;
+    margin-left: 6px;
+    margin-right: 2px;
+    
+  
+    border: solid 2px rgb(93, 18, 210);
+  }
+  .typying{
+    margin-left: 50px;
+    align-items: center;
+    text-align: center;
+  }
+  
+>>>>>>> 0cf3ca414bbe76e0f750f2cc49f660a1e82ed37a
